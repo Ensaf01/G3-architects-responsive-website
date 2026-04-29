@@ -113,8 +113,12 @@ main {
     gap: 20px;
 }
 .our-feature{
-    width: 537px;
+    max-width: 537px;
     height: 304px;
+}
+.feature-description{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
 }
 .feature-title{
     font-size: 3rem;
@@ -141,6 +145,9 @@ main {
         flex-direction: row;
         gap: 10px;
     }
+    .nav-items{
+    margin-right: 0px;
+}
 
     .banner-title {
         font-size: 2.5rem;
@@ -150,7 +157,7 @@ main {
         max-width: 100%;
         padding: 0 20px;
     }
-
+/* Team Section Styles */
     .teams {
         flex-direction: column;
         align-items: center;
@@ -159,7 +166,7 @@ main {
     }
 
     .team-img-container {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(1,1fr);
     }
     .our-feature{
         width: 100%;
@@ -167,7 +174,7 @@ main {
         padding: 0 20px;
     }
      .feature-title{
-        font-size: 2rem;
+        font-size: 1.9rem;
     }
 }
 
