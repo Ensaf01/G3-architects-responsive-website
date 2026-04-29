@@ -45,7 +45,16 @@ main {
     max-width: 1440px;
     margin: 0 auto;
 }
+.feature-description{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+
 /* Navigation Bar Styles */
+
+
+
 .brand{
     font-size: 3rem;
     font-weight: 700;
@@ -118,10 +127,7 @@ main {
     max-width: 537px;
     max-height: 304px;
 }
-.feature-description{
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-}
+
 .feature-title{
     font-size: 3rem;
     
@@ -136,6 +142,64 @@ main {
 .feature{
     color: #FF900E;
 }   
+
+/* Feature Section Styles */
+.feature-section{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    justify-content: space-between;
+    /* align-items: center; */
+    max-height: 1059px;
+    background-color: slateblue;
+}
+.feature-list{
+    flex-direction: column;
+    max-width: 585px;
+    max-height: 100%;
+    gap: 10px;
+}
+.feature-head-container{
+    gap: 20px;
+}
+.feature-head{
+   max-width: 484px;
+   max-height: 109px;
+}
+.feature-item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: #d2cece 0px 10px 15px, #424242 0px 10px 15px;
+    max-width: 537px;
+    max-height: 150px;
+    
+}
+.feature-item-title{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.architect-img{
+    margin-top: 50px;
+    max-width: 780px;
+    max-height: 900px;
+}
+.experience{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FF900E;
+    color: #fff;
+    border-radius: 5px;
+    /* padding: 20px; */
+    position: absolute;
+    z-index: 20;
+    margin-top: -90px;
+    margin-left: -50px;
+    width: 250px;
+    max-height: 100%;
+}
 
 /* responsive styles */
 @media (max-width: 576px) {
