@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+ /* <weight>: Use a value from 100 to 900
+ <uniquifier>: Use a unique and descriptive class name */
+
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/* shared styles */
+.display-flex {
+    display: flex;
+}
+/* dark01 */
+.dark01 {
+    color: #131313;
+}
+/* dark02 color */
+.dark02 {
+    color: #424242;
+}
+/* dark03 */
+.dark03 {
+    color: #727272;
+}
+.bg-light {
+    background-color:rgba(255, 144, 14, 0.1);
+}
+.btn-primary {
+    background-color: #FF900E;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-size: semi-bold;
+    cursor: pointer;
+}
+/* Navigation Bar Styles */
+.brand{
+    font-size: 3rem;
+    font-weight: 700;
+    align-items: center;
+    
+}
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-items{
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-links{
+    gap: 20px;
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* Banner Container Styles */
+.navbar, .banner-container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.banner{
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    gap: 29px;
+}
+.banner-content{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+    max-width: 850px;
+    margin-bottom: 50px;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+   
+}
+
+ .banner-image{
+    width: 100%;
+   
+}
+
+
+/* responsive styles */
+@media (max-width: 576px) {
+    .navbar {
+        flex-direction: column;
+    }
+    .nav-links {
+       flex-direction: row;
+        gap: 10px;
+    }
+    .banner-title {
+        font-size: 2.5rem;
+    }
+    .banner-content {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+}
