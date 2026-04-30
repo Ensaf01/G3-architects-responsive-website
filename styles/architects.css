@@ -1,35 +1,40 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 
- /* <weight>: Use a value from 100 to 900
+/* <weight>: Use a value from 100 to 900
  <uniquifier>: Use a unique and descriptive class name */
 
 .work-sans-font {
-  font-family: "Work Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
+
 /* shared styles */
 .display-flex {
     display: flex;
 }
+
 /* dark01 */
 .dark01 {
     color: #131313;
 }
+
 /* dark02 color */
 .dark02 {
     color: #424242;
 }
+
 /* dark03 */
 .dark03 {
     color: #727272;
 }
+
 .bg-light {
-    background-color:rgba(255, 144, 14, 0.1);
+    background-color: rgba(255, 144, 14, 0.1);
 }
+
 .btn-primary {
     background-color: #FF900E;
     color: #fff;
@@ -40,12 +45,14 @@
     font-size: semi-bold;
     cursor: pointer;
 }
-main {
-         
+
+.main {
+
     max-width: 1440px;
     margin: 0 auto;
 }
-.feature-description{
+
+.feature-description {
     font-size: 1.2rem;
     margin-bottom: 20px;
 }
@@ -55,24 +62,28 @@ main {
 
 
 
-.brand{
+.brand {
     font-size: 3rem;
     font-weight: 700;
     align-items: center;
-    
+
 }
-.navbar{
+
+.navbar {
     justify-content: space-between;
     align-items: center;
 }
-.nav-items{
+
+.nav-items {
     list-style: none;
     margin-right: 30px;
 }
-.nav-links{
+
+.nav-links {
     gap: 20px;
 }
-.nav-link{
+
+.nav-link {
     text-decoration: none;
     font-weight: 500;
 }
@@ -80,17 +91,20 @@ main {
 
 
 /* Banner Container Styles */
-.navbar, .banner{
+.navbar,
+.banner {
     max-width: 1440px;
     margin: 0 auto;
 }
-.banner{
+
+.banner {
     flex-direction: column;
     align-items: center;
     justify-self: center;
     gap: 29px;
 }
-.banner-content{
+
+.banner-content {
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -98,55 +112,61 @@ main {
     max-width: 850px;
     margin-bottom: 50px;
 }
-.banner-title{
+
+.banner-title {
     font-size: 4rem;
     font-weight: 700;
     text-align: center;
-   
+
 }
 
- .banner-image{
+.banner-image {
     width: 100%;
-   
+
 }
 
 /* main styles */
-.teams{
-    
+.teams {
+
     flex-direction: row;
     align-items: center;
     gap: 70px;
     margin-top: 20px;
 }
-.team-img-container{
+
+.team-img-container {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
-.our-feature{
+
+.our-feature {
     max-width: 537px;
     max-height: 304px;
 }
 
-.feature-title{
+.feature-title {
     font-size: 3rem;
-    
+
 }
-.Quicks{
+
+.Quicks {
     color: #424242;
-     
+
 }
-.of{
+
+.of {
     color: #131313;
 }
-.feature{
+
+.feature {
     color: #FF900E;
-}   
+}
 
 /* Feature Section Styles */
 
 
-.feature-section{
+.feature-section {
     margin-top: 50px;
     margin-bottom: 100px;
     justify-content: space-between;
@@ -154,20 +174,24 @@ main {
     max-height: 1059px;
     /* background-color: slateblue; */
 }
-.feature-list{
+
+.feature-list {
     flex-direction: column;
     max-width: 585px;
     max-height: 100%;
     gap: 20px;
 }
-.feature-head-container{
+
+.feature-head-container {
     gap: 20px;
 }
-.feature-head{
-   max-width: 484px;
-   max-height: 109px;
+
+.feature-head {
+    max-width: 484px;
+    max-height: 109px;
 }
-.feature-item{
+
+.feature-item {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -176,18 +200,21 @@ main {
     box-shadow: #d2cece 0px 10px 15px, #424242 0px 10px 15px;
     max-width: 537px;
     max-height: 150px;
-    
+
 }
-.feature-item-title{
+
+.feature-item-title {
     font-size: 1.5rem;
     font-weight: 500;
 }
-.architect-img{
+
+.architect-img {
     margin-top: 50px;
     max-width: 780px;
     max-height: 900px;
 }
-.experience{
+
+.experience {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -195,8 +222,7 @@ main {
     color: #fff;
     border-radius: 5px;
     /* padding: 20px; */
-    position: absolute;
-    
+    position: relative;
     margin-top: -90px;
     margin-left: -50px;
     width: 250px;
@@ -205,12 +231,13 @@ main {
 
 
 /* Some Facts Section Styles */
-.facts-container{
+.facts-container {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    
+    grid-template-columns: repeat(4, 1fr);
+
 }
-.fact-card{
+
+.fact-card {
     border: 1px solid #8d7272;
     width: 240px;
     height: 240px;
@@ -219,31 +246,72 @@ main {
     justify-content: center;
     align-items: center;
 }
-.fact-number{
+
+.fact-number {
     font-size: 2.5rem;
     font-weight: 600;
     margin-top: 5px;
     margin-bottom: 10px;
 }
-.fact-name{
+
+.fact-name {
     font-size: 1.25rem;
     font-weight: 700;
     margin-top: 10px;
 }
-.fact-description{
+
+.fact-description {
     max-width: 540px;
-    
+
 }
 
-.hide{
-    display: none;
+/* footer styles */
+.footer{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
 }
+.sponsor-head-container{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 529px;
+    height: 129px;
+    margin-left: 455px;
+    margin-right: 455px;
+    background-color: #eae6e1;
+}
+.sponsors{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.sponsors img{
+   filter: grayscale(100%);
+}
+
+.copyright-container{
+    width: 1440px;
+    height: 100px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e4d9cd;
+}
+
+
+/* .hide {
+    display: none;
+} */
 
 /* responsive styles */
 @media (max-width: 925px) {
     .bg-light {
-    width: 100%;
-}
+        width: 100%;
+    }
+
     .navbar {
         flex-direction: column;
     }
@@ -261,7 +329,8 @@ main {
         max-width: 100%;
         padding: 0 20px;
     }
-/* Team Section Styles */
+
+    /* Team Section Styles */
     .teams {
         flex-direction: column;
         align-items: center;
@@ -272,92 +341,149 @@ main {
     }
 
     .team-img-container {
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
-    .our-feature{
+
+    .our-feature {
         width: 100%;
         height: auto;
         align-items: center;
         justify-content: center;
         text-align: center;
     }
-    .feature-description{
+
+    .feature-description {
         font-size: .9rem;
-            margin-bottom: 20px;
+        margin-bottom: 20px;
     }
-     .feature-title{
+
+    .feature-title {
         font-size: 1.9rem;
     }
 
     /* feature section will enjoy and love */
-    .feature-section{
+    .feature-section {
         flex-direction: column;
         /* align-items: center;
         justify-content: center;
         gap: 40px; */
-    }   
-    .feature-list{
-    gap: 30px;
-}
-.feature-item{
-    width: 100%;
-    height: 100%;
-}
-    .architect-img{
-    margin-top: 50px;
-    width:100%;
-    max-height: 100%;
-}
+    }
 
-/* Some Facts Section Styles */
-.some-fact{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 1000px;
-}
-    .facts-container{
+    .feature-list {
+        gap: 30px;
+    }
+
+    .feature-item {
+        width: 100%;
+        height: 100%;
+    }
+
+    .architect-img {
+        margin-top: 50px;
+        width: 100%;
+        max-height: 100%;
+    }
+
+    /* Some Facts Section Styles */
+    .some-fact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1000px;
+    }
+
+    .facts-container {
         /* margin-top: 550px; */
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
         gap: 30px;
 
     }
+    .experience{
+        margin-top: 0px;
+        margin-left: 0px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
 
+    /* footer styles */
+    
+.sponsor-head-container{
+    width: 100%;
+    height: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.sponsors{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-items: center;
+    gap: 20px;
+}
+.sponsors img{
+    border:1px solid #424242;
+    padding: 15px;
+}
+.copyright-container{
+    width: 100%;
+    text-align: center;
+}
 }
 
 /* medium screen styles */
-@media (min-width: 576px) and (max-width: 1024px)
-    {
-        .brand{
-            font-size: 2.5rem;
-        }
-        
-        .banner-content {
-            padding: 0 20px;
-        }
-        .teams {
+@media (min-width: 576px) and (max-width: 1024px) {
+    .brand {
+        font-size: 2.5rem;
+    }
+
+    .banner-content {
+        padding: 0 20px;
+    }
+
+    .teams {
         margin-top: 100px;
         flex-direction: column;
         gap: 40px;
     }
 
     .team-img-container {
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
-    .our-feature{
+
+    .our-feature {
         width: 100%;
         height: auto;
         align-items: center;
         justify-content: center;
         text-align: center;
     }
-    .feature-description{
+
+    .feature-description {
         font-size: .9rem;
         margin-bottom: 20px;
     }
-     .feature-title{
+
+    .feature-title {
         font-size: 1.25rem;
     }
+    .feature-section{
+      margin-bottom: -1000px;
+      max-height: 100%;
+      /* here after small device rotate feature class take 100% max-width that why more space empty so i take margrin - value */
     }
-
+    .feature-list{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .feature-head {
+    max-width: 100%;
+}
+    .architect-img{
+        max-width: 100%;
+    }
+}
